@@ -3,6 +3,10 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/crdroid.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
 
+# gapps
+WITH_GMS := true
+$(call inherit-product, vendor/gms/products/gms.mk)
+
 PRODUCT_BRAND ?= crDroidAndroid
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
