@@ -5,7 +5,7 @@ $(call inherit-product-if-exists, vendor/addons/config.mk)
 
 # gapps
 WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
 
 PRODUCT_BRAND ?= crDroidAndroid
 
