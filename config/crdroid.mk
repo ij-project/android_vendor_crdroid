@@ -5,7 +5,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
-    ro.com.google.ime.theme_id=5 \
     ro.opa.eligible_device=true \
     ro.com.android.wifi-watchlist=GoogleGuest \
     drm.service.enabled=true \
